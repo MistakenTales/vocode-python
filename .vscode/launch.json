@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--port",
+                "3000"
+            ],
+            "cwd": "${workspaceFolder}/apps/telephony_app",
+            "jinja": true,
+            "python": "/Users/Annie/miniconda3/bin/python"
+        }
+    ]
+}
